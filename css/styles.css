@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Special+Elite&display=swap');
 * {
-    color:red;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #BF0000;
+    color: #CC3F0A;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html, body{
+    background-color: #000;
+}
+
+h1{
+    color:#CC3F0A;
+    filter: drop-shadow(1px 1px 1px #000);
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+    filter: sepia(.45);
+    filter: drop-shadow(1px 1px 0.5px #000);
 }
