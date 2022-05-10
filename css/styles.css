@@ -67,3 +67,47 @@ b{
 .hanmashart-contact-container b{
     margin-right: 10px;
 }
+
+#hanmashart-card-list{
+    padding: 40px 0;
+}
+
+.hanmashart-card{
+    width: 360px;
+}
+
+.hanmashart-card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.hanmashart-card-description{
+    padding: 10px 0 20 px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bar-red);
+    border-radius: 0 0 10px 10px;
+}
+
+.hanmashart-card-description h3{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--all-black);
+}
+
+.hanmashart-btn, .hanmashart-btn:hover {
+    background-color: var(--ft-orange);
+    height: 40px;
+    width: 180px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--all-black);
+    border-radius: 10px;
+}
