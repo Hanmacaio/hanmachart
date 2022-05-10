@@ -73,21 +73,28 @@ b{
 }
 
 .hanmashart-card{
-    width: 360px;
+    width: 100%;
 }
 
 .hanmashart-card img{
     width: 100%;
     border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 138px;
+    max-height: 138px;
 }
 
 .hanmashart-card-description{
-    padding: 10px 0 20 px 0;
+    padding: 10px 15px 20 px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background-color: var(--bar-red);
     border-radius: 0 0 10px 10px;
+    min-height: 120px;
 }
 
 .hanmashart-card-description h3{
@@ -96,6 +103,7 @@ b{
     font-size: 17px;
     font-weight: 700;
     color: var(--all-black);
+    text-align: center;
 }
 
 .hanmashart-btn, .hanmashart-btn:hover {
